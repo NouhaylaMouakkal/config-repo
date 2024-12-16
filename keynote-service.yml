@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: keynote-service
+
+  server:
+    port: 8082
+
+keynote:
+  max-length: 500
+  allowed-languages:
+    - en
+    - fr

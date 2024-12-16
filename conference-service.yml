@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: conference-service
+
+  server:
+    port: 8083
+
+conference:
+  conference-type: academic
+  max-participants: 500
+  registration-open: true

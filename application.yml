@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mydb
+    username: user
+    password: secret
+
+  application:
+    name: my-application
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/NouhaylaMouakkal/config-repo.git
+
+  profiles:
+    active: dev
